@@ -318,31 +318,31 @@ iframe {
 .tool-icons {
   display: flex;
   flex-wrap: wrap;
-  align-items: end;
-  gap: 7px;
+  align-items: center;
+  gap: 6px;
 }
 
 .tool-icons figure {
-  display: grid;
-  justify-items: center;
-  gap: 3px;
+  display: block;
   margin: 0;
 }
 
 .tool-icons figcaption {
-  color: var(--muted);
-  font-size: 6px;
+  display: block;
+  padding: 3px 8px 4px;
+  color: #383832;
+  font-size: 11px;
+  font-weight: 700;
   line-height: 1;
-  letter-spacing: 0;
+  letter-spacing: 0.04em;
   white-space: nowrap;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #ffffff;
 }
 
 .tool-icons img {
-  display: block;
-  width: 25px;
-  aspect-ratio: 1;
-  border-radius: 4px;
-  object-fit: cover;
+  display: none;
 }
 
 .skill-item p,
